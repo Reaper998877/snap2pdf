@@ -1,16 +1,15 @@
-# snap2pdf
+# Snap2PDF
 
-A new Flutter project.
+A app designed for handling PDF files. Works on Android and IOS.
 
-## Getting Started
+# Features
 
-This project is a starting point for a Flutter application.
+a. Create PDF from Text Data and Save
 
-A few resources to get you started if this is your first Flutter project:
+b. Create PDF from Images and Save
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+c. View PDFs 
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+d. Open Recent PDF
+
+e. Save history of recent PDFs opened
