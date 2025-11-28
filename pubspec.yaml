@@ -1,0 +1,113 @@
+name: snap2pdf
+description: "A new Flutter project."
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # ----------------------------------------------------------
+  # 🔶 CORE UTILITIES & SYSTEM
+  # ----------------------------------------------------------
+  logger: ^2.6.2
+    # For formatted and structured logging (debugging).
+
+  device_info_plus: ^12.2.0
+    # Fetch device details (model, OS version, brand).
+
+  permission_handler: ^12.0.1
+    # Manage and request runtime permissions (camera, storage, etc).
+
+  shared_preferences: ^2.5.3
+    # Store small local key-value data (settings, flags, onboarding state).
+
+  path_provider: ^2.1.5
+    # Access common device directories (documents, temp, external).
+
+  app_links: ^6.0.0
+    # Handle deep links / incoming URLs.
+
+  uri_content: ^3.1.1
+    # Read Android content-URI files (important for SAF + shared files).
+
+
+  # ----------------------------------------------------------
+  # 🔵 IMAGE & CAMERA PROCESSING
+  # ----------------------------------------------------------
+  image_picker: ^1.2.1
+    # Pick images from gallery or camera.
+
+  camera: ^0.10.5
+    # Full-feature camera access with custom preview.
+
+  image_cropper: ^11.0.0
+    # Crop images before saving or converting.
+
+  image: ^4.5.4
+    # Advanced image manipulation (resize, rotate, convert to png/jpeg).
+
+
+  # ----------------------------------------------------------
+  # 🟢 FILE HANDLING & INTEGRATION
+  # ----------------------------------------------------------
+  file_picker: ^10.3.6
+    # Pick any file type from local storage.
+
+  open_filex: ^4.7.0
+    # Open files with appropriate external applications.
+
+
+  # ----------------------------------------------------------
+  # 📕 PDF CREATION, VIEWING & PRINTING
+  # ----------------------------------------------------------
+  pdf: ^3.11.3
+    # Generate PDF files programmatically.
+
+  pdfx: ^2.9.2
+    # Display PDF files inside your Flutter UI.
+
+  printing: ^5.11.0
+    # Print or share PDFs (supports print preview).
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - res/fonts/
+    - res/icons/
+  #   - images/a_dot_ham.jpeg
+
+  fonts:
+    - family: poppins
+      fonts:
+        - asset: res/fonts/Poppins-Regular.ttf
+        
+    - family: amaranth
+      fonts:
+        - asset: res/fonts/Amaranth-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  
