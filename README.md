@@ -1,8 +1,13 @@
 # Snap2PDF
 
-A app designed for handling PDF files. Works on Android and IOS.
+A fast and lightweight mobile app to convert text or images into
+high-quality PDFs, view PDFs inside the app, and maintain a history of recently
+opened PDFs.
 
-# Features
+Target users: Students, office workers, document managers, freelancers, anyone
+needing quick PDF creation from text or images
+
+# Main Features
 
 a. Create PDF from Text Data and Save
 
